@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="hb">
+		<class>com.devone.jpa.Company</class>
+		<class>com.devone.jpa.Order</class>
+		<class>com.devone.jpa.ParamAdmin</class>
+		<class>com.devone.jpa.Product</class>
+		<class>com.devone.jpa.SecAuthorized</class>
+		<class>com.devone.jpa.SecElement</class>
+		<class>com.devone.jpa.SecRol</class>
+		<class>com.devone.jpa.SecUser</class>
+		<class>com.devone.jpa.Service</class>
+		<class>com.devone.jpa.Status</class>
+		<class>com.devone.jpa.TypeService</class>
+	</persistence-unit>
+</persistence>
